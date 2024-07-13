@@ -18,7 +18,7 @@ export default function Footer() {
         <img src='./assets/Help-Avatar.svg' alt='Help'/>
         <div>
           <p className='font-playfair text-gray-400'>Here any Questions?</p>
-          <a className='font-lato font-medium' href='#'>Talk to a specialist</a>
+          <a className='font-lato font-medium' href='https://x.com/'>Talk to a specialist</a>
         </div>
       </div>
     </div>
