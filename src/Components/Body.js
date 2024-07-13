@@ -4,16 +4,18 @@ function Body() {
   return (
     <div className="px-3">
       <div className="flex justify-center items-center">
-        <img className="w-64 -rotate-[45deg]" src="./assets/Blue-Shape.svg" />
+        <img className="w-64 -rotate-[45deg]" src="./assets/Blue-Shape.svg" alt="No image"/>
         <img
           className="absolute  w-64 -rotate-[30deg]"
           src="./assets/Pink-Shape.svg"
+          alt="No image"
         />
         <img
           className="absolute w-64 -rotate-[15deg]"
           src="./assets/Purple-Shape.svg"
+          alt="No image"
         />
-        <img className="absolute  w-64" src="./assets/Hero-Model.png" />
+        <img className="absolute  w-64" src="./assets/Hero-Model.png" alt="No image"/>
       </div>
       <div className="space-y-3">
         <h1 className="font-playfair font-bold text-[45px] leading-tight">
@@ -32,7 +34,7 @@ function Body() {
           </div>
         </form>
         <div className="flex gap-2">
-          <img src="./assets/Checkmark.svg"/>
+          <img src="./assets/Checkmark.svg" alt="No image"/>
           <h3>No spam ever, unsubscribe anytime</h3>
         </div>
       </div>
